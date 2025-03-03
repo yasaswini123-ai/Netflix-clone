@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <nav class="navbar">
+            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="Netflix Logo">
+            
+            <div class="nav-buttons">
+                <div class="dropdown">
+                    <button class="drop">Language ⌵</button>
+                    <div class="drop-menu">
+                        <a href="#">English</a>
+                        <a href="#">Telugu</a>
+                        <a href="#">Hindi</a>
+                        <a href="#">Tamil</a>
+                    </div>
+                </div>
+                <button class="sign-in" id="signin-btn">Sign In</button>
+            </div>
+        </nav>
+
+        <div class="content">
+            <h1>Movies, TV shows, and more</h1>
+            <h3>Watch anywhere, cancel anytime.</h3>
+            <h5>Ready to watch? Enter your email to create or restart your membership</h5>
+            
+            <form class="email-form">
+                <input type="email" placeholder="Email address" required>
+                <button class="submit-btn">Get Started →</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Sign-in Form -->
+    <div class="signform" id="signform">
+        <span class="close-btn">&times;</span>
+        <h2>Sign In</h2>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button class="submit-btn">Submit</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
